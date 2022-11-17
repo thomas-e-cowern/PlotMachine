@@ -9,7 +9,7 @@ import Foundation
 
 class MotiveViewModel: ObservableObject {
     
-    var randomMotive: String = ""
+    @Published var randomMotive: String = ""
     
     func randomizeMotive() {
         let index: Int = Int.random(in: 1...motive.count)

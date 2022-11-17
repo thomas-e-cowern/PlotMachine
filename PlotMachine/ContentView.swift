@@ -19,7 +19,9 @@ struct ContentView: View {
             .buttonStyle(.bordered)
             .padding()
             
-            Text("Motive: \(motiveVM.randomMotive)")
+            if motiveVM.randomMotive != "" {
+                Text("Motive: \(motiveVM.randomMotive)")
+            }
         }
     }
 }
