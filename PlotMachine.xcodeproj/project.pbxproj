@@ -51,6 +51,7 @@
 		4D147BF22926105200AF44AA /* PlotMachine */ = {
 			isa = PBXGroup;
 			children = (
+				4D147C01292612A700AF44AA /* Data */,
 				4D147BF32926105200AF44AA /* PlotMachineApp.swift */,
 				4D147BF52926105200AF44AA /* ContentView.swift */,
 				4D147BF72926105500AF44AA /* Assets.xcassets */,
@@ -65,6 +66,13 @@
 				4D147BFA2926105500AF44AA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D147C01292612A700AF44AA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
