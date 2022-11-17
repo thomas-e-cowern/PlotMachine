@@ -20,7 +20,7 @@ struct ContentView: View {
             Button("Motive") {
                 motiveVM.randomizeMotive()
             }
-            .buttonStyle(.bordered)
+            .buttonStyle(BlueButton())
             .padding()
             
             if motiveVM.randomMotive != "" {
@@ -32,7 +32,7 @@ struct ContentView: View {
             Button("Comlication For Hero") {
                 complicationVM.randomizeComplications()
             }
-            .buttonStyle(.bordered)
+            .buttonStyle(BlueButton())
             .padding()
             
             if complicationVM.randomComplication != "" {
@@ -44,7 +44,7 @@ struct ContentView: View {
             Button("Act of Villan") {
                 actofVillanVM.randomizeActOfVillan()
             }
-            .buttonStyle(.bordered)
+            .buttonStyle(BlueButton())
             .padding()
             
             if actofVillanVM.randomAct != "" {
@@ -56,7 +56,7 @@ struct ContentView: View {
             Button("Twists") {
                 twistVM.randomizeTwist()
             }
-            .buttonStyle(.bordered)
+            .buttonStyle(BlueButton())
             .padding()
             
             if twistVM.randomTwist != "" {
@@ -68,7 +68,7 @@ struct ContentView: View {
             Button("Opening Scene") {
                 openingSceneVM.randomizeOpeningScene()
             }
-            .buttonStyle(.bordered)
+            .buttonStyle(BlueButton())
             .padding()
             
             if openingSceneVM.randomizedOpeningScene != "" {
