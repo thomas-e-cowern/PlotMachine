@@ -22,6 +22,8 @@ struct ContentView: View {
             
             if motiveVM.randomMotive != "" {
                 Text("Motive: \(motiveVM.randomMotive)")
+            } else {
+                Text("Click Motive for a motive!")
             }
             
             Button("Comlication For Hero") {
@@ -32,6 +34,8 @@ struct ContentView: View {
             
             if complicationVM.randomComplication != "" {
                 Text("Motive: \(complicationVM.randomComplication)")
+            } else {
+                Text("Click Complication for a complication")
             }
         }
     }
