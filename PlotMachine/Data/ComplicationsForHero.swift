@@ -7,7 +7,7 @@
 
 import Foundation
 
-var ComplicationsForHero: [Int : String] = [
+var complicationsForHero: [Int : String] = [
     1: "Relative",
     2: "Friend",
     3: "Alcoholic",
