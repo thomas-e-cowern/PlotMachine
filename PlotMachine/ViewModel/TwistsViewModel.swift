@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Twists: ObservableObject {
+class TwistsViewModel: ObservableObject {
     
     @Published var randomTwist: String = ""
     
