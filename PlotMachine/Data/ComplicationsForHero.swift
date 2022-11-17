@@ -14,5 +14,16 @@ var complicationsForHero: [Int : String] = [
     4: "Cowboy",
     5: "Architect",
     6: "Fighter",
-    7: "Health nut"
+    7: "Health nut",
+    8: "Bartender",
+    9: "Recluse",
+    10: "Florise",
+    11: "Cop",
+    12: "Hairdresser",
+    12: "Gun fanatic",
+    14: "Writer",
+    15: "Firefighter",
+    16: "Animal Trainer",
+    17: "Dog Groomer",
+    18: "Nudist"
 ]
