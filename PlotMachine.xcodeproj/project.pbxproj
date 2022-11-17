@@ -12,6 +12,7 @@
 		4D147BF82926105500AF44AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D147BF72926105500AF44AA /* Assets.xcassets */; };
 		4D147BFB2926105500AF44AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D147BFA2926105500AF44AA /* Preview Assets.xcassets */; };
 		4D147C03292612E800AF44AA /* Motive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D147C02292612E800AF44AA /* Motive.swift */; };
+		4D147C06292614EB00AF44AA /* MotiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D147C05292614EB00AF44AA /* MotiveViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4D147BF72926105500AF44AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D147BFA2926105500AF44AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D147C02292612E800AF44AA /* Motive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motive.swift; sourceTree = "<group>"; };
+		4D147C05292614EB00AF44AA /* MotiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotiveViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		4D147BF22926105200AF44AA /* PlotMachine */ = {
 			isa = PBXGroup;
 			children = (
+				4D147C04292614D800AF44AA /* ViewModel */,
 				4D147C01292612A700AF44AA /* Data */,
 				4D147BF32926105200AF44AA /* PlotMachineApp.swift */,
 				4D147BF52926105200AF44AA /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				4D147C02292612E800AF44AA /* Motive.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		4D147C04292614D800AF44AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D147C05292614EB00AF44AA /* MotiveViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D147C06292614EB00AF44AA /* MotiveViewModel.swift in Sources */,
 				4D147BF62926105200AF44AA /* ContentView.swift in Sources */,
 				4D147BF42926105200AF44AA /* PlotMachineApp.swift in Sources */,
 				4D147C03292612E800AF44AA /* Motive.swift in Sources */,
