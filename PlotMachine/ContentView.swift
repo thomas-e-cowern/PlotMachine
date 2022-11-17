@@ -11,6 +11,7 @@ struct ContentView: View {
     
     @ObservedObject private var motiveVM = MotiveViewModel()
     @ObservedObject private var complicationVM = ComplicationsViewModel()
+    @ObservedObject private var actofVillanVM = ActOfVillanViewModel()
     
     var body: some View {
         VStack {
@@ -36,6 +37,18 @@ struct ContentView: View {
                 Text("Complication: \(complicationVM.randomComplication)")
             } else {
                 Text("Click Complication for a complication")
+            }
+            
+            Button("Act of Villan") {
+                actofVillanVM.randomizeActOfVillan()
+            }
+            .buttonStyle(.bordered)
+            .padding()
+            
+            if actofVillanVM.randomAct != "" {
+                Text("Act of Villan: \(actofVillanVM.randomAct)")
+            } else {
+                Text("Click Act of Villan")
             }
         }
     }
