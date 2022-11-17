@@ -13,6 +13,7 @@
 		4D147BFB2926105500AF44AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D147BFA2926105500AF44AA /* Preview Assets.xcassets */; };
 		4D147C03292612E800AF44AA /* Motive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D147C02292612E800AF44AA /* Motive.swift */; };
 		4D147C06292614EB00AF44AA /* MotiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D147C05292614EB00AF44AA /* MotiveViewModel.swift */; };
+		4D147C08292619D900AF44AA /* ComplicationsForHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D147C07292619D900AF44AA /* ComplicationsForHero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		4D147BFA2926105500AF44AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D147C02292612E800AF44AA /* Motive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motive.swift; sourceTree = "<group>"; };
 		4D147C05292614EB00AF44AA /* MotiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotiveViewModel.swift; sourceTree = "<group>"; };
+		4D147C07292619D900AF44AA /* ComplicationsForHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationsForHero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				4D147C02292612E800AF44AA /* Motive.swift */,
+				4D147C07292619D900AF44AA /* ComplicationsForHero.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				4D147C06292614EB00AF44AA /* MotiveViewModel.swift in Sources */,
 				4D147BF62926105200AF44AA /* ContentView.swift in Sources */,
 				4D147BF42926105200AF44AA /* PlotMachineApp.swift in Sources */,
+				4D147C08292619D900AF44AA /* ComplicationsForHero.swift in Sources */,
 				4D147C03292612E800AF44AA /* Motive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
