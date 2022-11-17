@@ -13,6 +13,7 @@ struct ContentView: View {
     @ObservedObject private var complicationVM = ComplicationsViewModel()
     @ObservedObject private var actofVillanVM = ActOfVillanViewModel()
     @ObservedObject private var twistVM = TwistsViewModel ()
+    @ObservedObject private var openingSceneVM = OpeningSceneViewModel()
     
     var body: some View {
         VStack {
@@ -62,6 +63,18 @@ struct ContentView: View {
                 Text("Twist: \(twistVM.randomTwist)")
             } else {
                 Text("Click for twist")
+            }
+            
+            Button("Opening Scene") {
+                openingSceneVM.randomizeOpeningScene()
+            }
+            .buttonStyle(.bordered)
+            .padding()
+            
+            if openingSceneVM.randomizedOpeningScene != "" {
+                Text("Opening Scene: \(openingSceneVM.randomizedOpeningScene)")
+            } else {
+                Text("Click for an opening scene")
             }
         }
     }
