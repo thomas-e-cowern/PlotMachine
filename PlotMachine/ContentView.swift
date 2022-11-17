@@ -33,7 +33,7 @@ struct ContentView: View {
             .padding()
             
             if complicationVM.randomComplication != "" {
-                Text("Motive: \(complicationVM.randomComplication)")
+                Text("Complication: \(complicationVM.randomComplication)")
             } else {
                 Text("Click Complication for a complication")
             }
