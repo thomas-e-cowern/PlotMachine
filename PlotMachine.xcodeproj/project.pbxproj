@@ -20,6 +20,7 @@
 		4D147C10292691FD00AF44AA /* Twists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D147C0F292691FD00AF44AA /* Twists.swift */; };
 		4D147C12292692D200AF44AA /* OpeningScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D147C11292692D200AF44AA /* OpeningScene.swift */; };
 		4D147C142926971600AF44AA /* TwistsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D147C132926971600AF44AA /* TwistsViewModel.swift */; };
+		4D147C16292698BA00AF44AA /* OpeningSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D147C15292698BA00AF44AA /* OpeningSceneViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		4D147C0F292691FD00AF44AA /* Twists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twists.swift; sourceTree = "<group>"; };
 		4D147C11292692D200AF44AA /* OpeningScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningScene.swift; sourceTree = "<group>"; };
 		4D147C132926971600AF44AA /* TwistsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwistsViewModel.swift; sourceTree = "<group>"; };
+		4D147C15292698BA00AF44AA /* OpeningSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningSceneViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4D147C0929261A8D00AF44AA /* ComplitcationViewModel.swift */,
 				4D147C0D29268BED00AF44AA /* ActOfVillanViewModel.swift */,
 				4D147C132926971600AF44AA /* TwistsViewModel.swift */,
+				4D147C15292698BA00AF44AA /* OpeningSceneViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				4D147BF62926105200AF44AA /* ContentView.swift in Sources */,
 				4D147BF42926105200AF44AA /* PlotMachineApp.swift in Sources */,
 				4D147C142926971600AF44AA /* TwistsViewModel.swift in Sources */,
+				4D147C16292698BA00AF44AA /* OpeningSceneViewModel.swift in Sources */,
 				4D147C0A29261A8D00AF44AA /* ComplitcationViewModel.swift in Sources */,
 				4D147C0E29268BED00AF44AA /* ActOfVillanViewModel.swift in Sources */,
 				4D147C12292692D200AF44AA /* OpeningScene.swift in Sources */,
