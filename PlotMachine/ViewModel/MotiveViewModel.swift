@@ -7,9 +7,15 @@
 
 import Foundation
 
-struct MotiveViewModel {
+class MotiveViewModel: ObservableObject {
     
+    var randomMotive: String = ""
     
+    func randomizeMotive() {
+        let index: Int = Int.random(in: 1...motive.count)
+        print("Index: \(index)")
+        randomMotive = motive[index]!
+    }
     
     
 }

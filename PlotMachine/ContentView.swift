@@ -8,15 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject private var motiveVM = MotiveViewModel()
+    
     var body: some View {
         VStack {
             Button("Motive") {
-                
+                motiveVM.randomizeMotive()
             }
             .buttonStyle(.bordered)
             .padding()
             
-            Text("Motive: ")
+            Text("Motive: \(motiveVM.randomMotive)")
         }
     }
 }
