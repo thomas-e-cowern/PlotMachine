@@ -20,7 +20,7 @@ var complicationsForHero: [Int : String] = [
     10: "Florise",
     11: "Cop",
     12: "Hairdresser",
-    12: "Gun fanatic",
+    13: "Gun fanatic",
     14: "Writer",
     15: "Firefighter",
     16: "Animal Trainer",
