@@ -21,6 +21,7 @@
 		4D147C12292692D200AF44AA /* OpeningScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D147C11292692D200AF44AA /* OpeningScene.swift */; };
 		4D147C142926971600AF44AA /* TwistsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D147C132926971600AF44AA /* TwistsViewModel.swift */; };
 		4D147C16292698BA00AF44AA /* OpeningSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D147C15292698BA00AF44AA /* OpeningSceneViewModel.swift */; };
+		4D147C1929269AE500AF44AA /* BlueButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D147C1829269AE500AF44AA /* BlueButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		4D147C11292692D200AF44AA /* OpeningScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningScene.swift; sourceTree = "<group>"; };
 		4D147C132926971600AF44AA /* TwistsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwistsViewModel.swift; sourceTree = "<group>"; };
 		4D147C15292698BA00AF44AA /* OpeningSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningSceneViewModel.swift; sourceTree = "<group>"; };
+		4D147C1829269AE500AF44AA /* BlueButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		4D147BF22926105200AF44AA /* PlotMachine */ = {
 			isa = PBXGroup;
 			children = (
+				4D147C1729269AC100AF44AA /* CustomStyles */,
 				4D147C04292614D800AF44AA /* ViewModel */,
 				4D147C01292612A700AF44AA /* Data */,
 				4D147BF32926105200AF44AA /* PlotMachineApp.swift */,
@@ -111,6 +114,14 @@
 				4D147C15292698BA00AF44AA /* OpeningSceneViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D147C1729269AC100AF44AA /* CustomStyles */ = {
+			isa = PBXGroup;
+			children = (
+				4D147C1829269AE500AF44AA /* BlueButtonStyle.swift */,
+			);
+			path = CustomStyles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D147C06292614EB00AF44AA /* MotiveViewModel.swift in Sources */,
+				4D147C1929269AE500AF44AA /* BlueButtonStyle.swift in Sources */,
 				4D147BF62926105200AF44AA /* ContentView.swift in Sources */,
 				4D147BF42926105200AF44AA /* PlotMachineApp.swift in Sources */,
 				4D147C142926971600AF44AA /* TwistsViewModel.swift in Sources */,
