@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @ObservedObject private var motiveVM = MotiveViewModel()
+    @ObservedObject private var complicationVM = ComplicationsViewModel()
     
     var body: some View {
         VStack {
@@ -21,6 +22,16 @@ struct ContentView: View {
             
             if motiveVM.randomMotive != "" {
                 Text("Motive: \(motiveVM.randomMotive)")
+            }
+            
+            Button("Comlication For Hero") {
+                complicationVM.randomizeComplications()
+            }
+            .buttonStyle(.bordered)
+            .padding()
+            
+            if complicationVM.randomComplication != "" {
+                Text("Motive: \(complicationVM.randomComplication)")
             }
         }
     }
